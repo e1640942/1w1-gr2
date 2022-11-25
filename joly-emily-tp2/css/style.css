@@ -7,7 +7,7 @@ h1 {
   margin: 0;
 }
 .menu {
-  position: flex;
+  position: fixed;
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -28,6 +28,9 @@ section {
 }
 #inscription {
   background-color: antiquewhite;
+}
+#galerie {
+  background-color: lightpink;
 }
 #tableau {
   background-color: azure;
