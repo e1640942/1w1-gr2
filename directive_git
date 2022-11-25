@@ -3,8 +3,7 @@ Pour afficher la commande git:
 2-Selectonner «ouvrir dans un terminal intégrer»
 3-Créer un dépot avec la commande git init
 4-Dans l'explorateur pour voir le dossier .git, qu'on appelle le depot, il faut sélectionner élément masqué dans affichage
-si la commande git n'est pas reconnue il faut installer git avec git downloaddans google pour trouver: https://git-scm.com/download/win vous télécharger la version windows 64 bit 
-vous lancez l'instalateur qui se trouve dans le dossier téléchargement 
+si la commande git n'est pas reconnue il faut installer git avec git download
 
 pour voir l'état de votre version 
 «git status»
@@ -12,3 +11,17 @@ si les fichier apparaissent en rouge il faut les indexer
 «git add --all»
 une fois que tous les fichiers modifiés passent au vert on peut faire un commit
 «git commit -m "s13 Début du TP2"»
+
+créer un dépot dans votre compte github ---> repository ----> new
+créer un nom simple ex: 1w1 
+se mettre en «public»
+save depository
+
+revenir au terminal vscode et entrer les commandes suivantes:
+changer le nom de la branche principale: «git branch -m main »
+créer un alias pour l'adresse du serveur distant (github)
+«git remote add 1w1 https://github.com/e1640942/1w1-gr2.git»
+poue vérifier que l'alias a été bien créé,
+«git remote -v»
+pour créer un readme.md 
+https://markdown-editor.github.io/
