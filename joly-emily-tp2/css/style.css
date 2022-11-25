@@ -1,0 +1,40 @@
+html {
+  scroll-behavior: smooth;
+}
+section,
+body,
+h1 {
+  margin: 0;
+}
+.menu {
+  position: flex;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.menu a {
+  display: block;
+  flex: 0 1 100px;
+}
+section {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#acceuil {
+  background-color: aliceblue;
+}
+#inscription {
+  background-color: antiquewhite;
+}
+#tableau {
+  background-color: azure;
+}
+#video {
+  background-color: blanchedalmond;
+}
+#pied-page {
+  background-color: cornsilk;
+}
